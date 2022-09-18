@@ -1,0 +1,178 @@
+*{ 
+    padding: 0%;
+    margin: 0;
+}
+ul.socials {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    justify-content: center;
+}
+ul.socials li {
+    margin: 1px;
+}
+ul.socials li a{ 
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.landing { 
+    height: 300px;
+    background-color: green;
+    text-align: center;
+    justify-content: center;
+    padding: 2%;
+    background-image: url("./beach\ photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* STYLING FOR NAVIGATION MENU */
+#navigation { 
+   width: 68%;
+   background-color: white;
+   margin:  2% auto;
+   display: flex;
+   justify-content: space-between;
+}
+#navigation ul {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+#navigation ul li {
+    list-style: none;
+    margin: 1% 5%;
+    text-align: center;
+}
+#navigation ul li a {
+    text-decoration: none;
+    color: #333;
+}
+#navigation ul li a.active {
+    color: red;
+}
+#navigation .logo {
+    display: flex;
+}
+#navigation .logo h4 {
+    
+   padding: 15px;
+   color: #f73333;
+   font-weight: bolder;
+}
+#navigation .icon {
+    background: #f73333;
+    width: 50px;
+    height: 100%;
+}
+.header{ 
+    padding: 4px;
+    margin-top: 3%;
+    color: white;
+    border-bottom: 1px solid #ffffff;
+    display: inline-block;
+}
+.web{
+    margin-top: 2%;
+    color: white;
+}
+.react{ 
+    background-color: red;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    margin: 1%;
+}
+.site{ 
+    display: 0;
+    text-align: center;
+    margin-top: 5%;
+}
+.service{ 
+    border-bottom: 2px solid;
+    display: inline-block;
+    margin: 0% auto;
+}
+.p2{
+    margin: 1%;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+.boxes div {
+    width: 200px;
+    height: 200px;
+    /* background: #333; */
+    margin: 1%;
+    position: relative;
+}
+.boxes div i{
+    color: white;
+    justify-content: center;
+    top: 50%;
+    right: 50%;
+    position: absolute;
+    font-size: medium;
+}
+.box-1{
+    background: #06a065;
+}
+.box-2{
+    background: rgb(255, 149, 10);
+}
+.box-3{
+    background: rgb(8, 108, 148);
+}
+.box-4{
+    background: green;
+}
+.port{ 
+    display: 0;
+    text-align: center;
+    margin-top: 2%;
+}
+.folio{
+    border-bottom: 2px solid;
+    display: inline-block;
+    margin: 0% auto;
+}
+.p3{
+    margin: 1%;
+}
+.photos{
+    justify-content: center;
+    width: 65%;
+    margin: 0 auto;
+}
+.photos div{
+    width: 200px;
+    height: 200px;
+    background: grey;
+    margin: 2% 2% 0% 0;
+    float: left;
+    flex-wrap: wrap;
+
+}
+.clearfix{
+    clear: both;
+}
+.photos div img{
+    width: 100%;
+    height: 100%;
+}
+.dot div{
+    width: 8px;
+    height: 8px;
+    background: #333;
+    margin: 2px ;
+    border-radius: 50%;
+}
+.dot{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
